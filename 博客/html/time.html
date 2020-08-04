@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+    window.onload = init;
+
+    function init(){
+        var past_time = document.getElementById("past_time");
+        past_data_time();
+    }
+
+    function past_data_time(){
+        window.setTimeout("past_data_time()",1000);
+
+        // 获取诞生时间
+        var BirthDay = new Date("2020/7/8 08:00:00");
+        // 获取当前时间
+        var Today = new Date();
+        var timesum = (Today.getTime() - BirthDay.getTime());   //获取总的毫秒数
+        // var secondssum = 
+        var e_daysum = timesum / (24 * 60 * 60 * 1000); //获取过去的总天数
+        var daysum = Math.floor(e_daysum);  //对天数进行向下取整 
+        var e_hoursum = (e_daysum - daysum) * 24;   //获取过去的小时数
+        var hoursum = Math.floor(e_hoursum);    //对小时数进行向下取整
+        var e_minsum = (e_hoursum - hoursum) * 60;  //获取过去的分钟数
+        var minsum = Math.floor(e_minsum);  //对分钟数进行向下取整
+        var seconds = Math.floor((e_minsum - minsum) * 60); //获取过去的秒数
+        past_time.innerHTML = "时间已经过去了:" + daysum + "天" + hoursum + "小时" + minsum + "分" + seconds + "秒";
+
+    }
+</script>
+<body>
+    <div id="past_time"></div>
+</body>
+</html>
