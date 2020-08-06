@@ -1,0 +1,57 @@
+''''
+    time库的使用
+        time库的三类函数
+            时间获取：time()、ctime()、gmtime()
+            时间格式化：strftime()、strptime()
+            程序计时：sleep()、perf_counter()
+
+'''
+#时间获取
+    #time():获取当前时间戳，计算机内部时间值，浮点数
+    #ctime():获取当前时间，并以易读的方式表示，返回字符串
+    #gmtime():获取当前时间，表示为计算机可处理的时间格式
+
+import time
+print(time.time())
+print(time.ctime());
+print(time.gmtime());
+
+print("***********************************************************");
+
+'''
+#时间格式化
+    #strftime（tpl，ts）：tpl是用来格式化模板字符串、用来定义输出效果；ts计算机内部类型变量
+    #strptime(ts,tpl):ts是时间字符串变量，tpl是时间的格式，将字符串格式化为计算机可以操作的时间
+        #格式化字符串：
+
+                %Y:年份
+                %m:月份
+                %B:月份名称
+                %b:月份的缩写
+                %d:日期
+                %A:星期
+                %a:星期的缩写
+                %H:小时（24）
+                %I:小时（12）
+                %p:上午/下午
+                %M:分钟
+                %S:秒
+'''
+
+t = time.gmtime();
+print(time.strftime("%Y-%m-%d %H:%M:%S",t));
+
+t1 = "2020-08-05 14:41:47";
+print(time.strptime(t1,"%Y-%m-%d %H:%M:%S"))
+
+print('-----------------------------');
+
+# 程序计时
+    #perf-counter()
+    # sleep():休眠
+
+start = time.perf_counter();
+
+end = time.perf_counter();
+
+print(end-start);

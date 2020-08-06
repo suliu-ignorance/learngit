@@ -7,6 +7,13 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectId" id="1fb1B5O19qiaTvclQNVHZemwJKb" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -16,7 +23,12 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
   </component>
-  <component name="RunManager" selected="Python.PythonDraw2">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\111\project-python2\python1,2_01" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.python3.5">
     <configuration name="PythonDraw" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="project-python2" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -29,7 +41,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonDraw.py" />
+      <option name="SCRIPT_NAME" value="D:\111\project-python2\python1,2_01\PythonDraw.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -50,7 +62,49 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonDraw2.py" />
+      <option name="SCRIPT_NAME" value="D:\111\project-python2\python1,2_01\PythonDraw2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="python3.4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="project-python2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python3" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python3/python3.4" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="python3.5" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="project-python2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python3" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python3/python3.5.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -61,8 +115,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.PythonDraw2" />
+        <item itemvalue="Python.python3.5" />
+        <item itemvalue="Python.python3.4" />
         <item itemvalue="Python.PythonDraw" />
+        <item itemvalue="Python.PythonDraw2" />
       </list>
     </recent_temporary>
   </component>
@@ -80,25 +136,29 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="616" height="163" key="GridCell.Tab.0.bottom" timestamp="1596555797206">
+    <state x="695" y="152" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1596637187882">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="616" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1596555797206" />
-    <state width="616" height="163" key="GridCell.Tab.0.center" timestamp="1596555797206">
+    <state x="695" y="152" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680@0.0.1280.680" timestamp="1596637187882" />
+    <state width="1259" height="163" key="GridCell.Tab.0.bottom" timestamp="1596646761142">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="616" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1596555797206" />
-    <state width="616" height="163" key="GridCell.Tab.0.left" timestamp="1596555797206">
+    <state width="1259" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1596646761142" />
+    <state width="1259" height="163" key="GridCell.Tab.0.center" timestamp="1596646761142">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="616" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1596555797206" />
-    <state width="616" height="163" key="GridCell.Tab.0.right" timestamp="1596555797206">
+    <state width="1259" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1596646761142" />
+    <state width="1259" height="163" key="GridCell.Tab.0.left" timestamp="1596646761142">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="616" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1596555797206" />
-    <state x="623" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1596554198435">
+    <state width="1259" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1596646761142" />
+    <state width="1259" height="163" key="GridCell.Tab.0.right" timestamp="1596646761142">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="623" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1596554198435" />
+    <state width="1259" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1596646761142" />
+    <state x="623" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1596643097765">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="623" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1596643097765" />
   </component>
 </project>
